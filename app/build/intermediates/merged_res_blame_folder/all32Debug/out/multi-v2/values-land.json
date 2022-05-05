@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Flying Samurai\\Desktop\\des backup1\\Y5DentalCamera\\dental\\Y5sdk\\app\\build\\intermediates\\incremental\\mergeAll32DebugResources\\merged.dir\\values-land\\values-land.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Flying Samurai\\.gradle\\caches\\transforms-3\\3089ae728e86a173ab5567809f8e94e9\\transformed\\appcompat-v7-28.0.0\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,125,196",
+                        "endColumns": "69,70,67",
+                        "endOffsets": "120,191,259"
+                    }
+                }
+            ]
+        }
+    ]
+}

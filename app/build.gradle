@@ -1,0 +1,52 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    defaultConfig {
+        applicationId 'cn.com.buildwin.goskydemo'
+        minSdkVersion 24
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode rootProject.ext.versionCode
+        versionName rootProject.ext.versionName
+        flavorDimensions "default"
+
+        ndk {
+            abiFilters  "armeabi","arm64-v8a"
+          // abiFilters  "armeabi-v7a"
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            jniDebuggable false
+        }
+    }
+    productFlavors {
+        all32 { minSdkVersion 24 }
+        all64 { minSdkVersion 24 }
+    }
+
+    // Rename
+    android.applicationVariants.all { variant ->
+        variant.outputs.all {
+            outputFileName = "y5${defaultConfig.versionName}_build${defaultConfig.versionCode}.apk"
+        }
+    }
+}
+
+dependencies {
+    implementation 'com.github.getActivity:XXPermissions:12.2'
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    testImplementation 'junit:junit:4.12'
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'com.android.support:support-v4:28.0.0'
+    // ijkplayer
+    implementation project(':ijkplayer-java')
+    implementation project(':ijkplayer-media')
+    implementation project(':ijkplayer-armv5')
+    implementation project(':ijkplayer-armv7a')
+    implementation project(':ijkplayer-arm64')
+}

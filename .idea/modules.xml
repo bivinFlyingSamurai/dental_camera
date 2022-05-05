@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Y5sdk.iml" filepath="$PROJECT_DIR$/.idea/modules/Y5sdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Y5sdk.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Y5sdk.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ijkplayer-arm64/Y5sdk.ijkplayer-arm64.iml" filepath="$PROJECT_DIR$/.idea/modules/ijkplayer-arm64/Y5sdk.ijkplayer-arm64.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ijkplayer-armv5/Y5sdk.ijkplayer-armv5.iml" filepath="$PROJECT_DIR$/.idea/modules/ijkplayer-armv5/Y5sdk.ijkplayer-armv5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ijkplayer-armv7a/Y5sdk.ijkplayer-armv7a.iml" filepath="$PROJECT_DIR$/.idea/modules/ijkplayer-armv7a/Y5sdk.ijkplayer-armv7a.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ijkplayer-java/Y5sdk.ijkplayer-java.iml" filepath="$PROJECT_DIR$/.idea/modules/ijkplayer-java/Y5sdk.ijkplayer-java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ijkplayer-media/Y5sdk.ijkplayer-media.iml" filepath="$PROJECT_DIR$/.idea/modules/ijkplayer-media/Y5sdk.ijkplayer-media.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "PROCESSED_RES",
+    "kind": "Directory"
+  },
+  "applicationId": "cn.com.buildwin.goskydemo",
+  "variantName": "all32Debug",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 19071210,
+      "versionName": "1.36",
+      "outputFile": "resources-all32Debug.ap_"
+    }
+  ],
+  "elementType": "File"
+}

@@ -1,0 +1,2 @@
+set solib-search-path /Users/buildwin/Documents/Android_Projects/GoSky/app/src/main/obj/local/armeabi-v7a
+directory /Users/buildwin/Library/Android/sdk/ndk-bundle/platforms/android-15/arch-arm /Users/buildwin/Library/Android/sdk/ndk-bundle/sources/cxx-stl/system
